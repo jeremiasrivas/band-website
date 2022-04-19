@@ -3,6 +3,13 @@ nav ul {
    flex-direction: row;
    justify-content: space-around;
    padding: 10px;
+   background-color: black;
+}
+nav li {
+    list-style: none;
+}
+nav a {
+    color: white;
 }
 
 #main-band-section img {
@@ -72,6 +79,7 @@ list-style-type: none;
 }
 .avalible-tickets li {
 margin-bottom: 10px;
+text-align: center  ;
 }
 
 .not-avalible {
@@ -92,6 +100,39 @@ padding-right: 5px;
 .space-between {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between ;
+}
+.contact-body, h1, h3{
+    text-align: center;
+    font-style: italic;
 }
 
+.contact-info, ul, li {
+    list-style: none;
+    padding-bottom: 10px;
+    font-weight: bold;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.location-icon {
+    height: 50px;
+}
+
+.phone-icon {
+    height: 30px;
+}
+
+.email-icon {
+    height: 50px;
+}
+
+#bold-contact {
+    font-weight: bold;
+}
+
+.form-contact {
+display: flex;
+justify-content: center;
+}
